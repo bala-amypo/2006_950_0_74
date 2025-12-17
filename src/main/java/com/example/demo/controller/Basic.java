@@ -1,9 +1,9 @@
 package com.example.demo.controller;
 import org.springframework.web.bind.annotation.*;
 @RestController
-public class basic {
+public class Basic {
     @GetMapping("/home")
     public String name(){
-        retrun "hello world";
+        return "hello world";
     }
 }
